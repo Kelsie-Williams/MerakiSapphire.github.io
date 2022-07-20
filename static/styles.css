@@ -1,0 +1,74 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #401F59;
+}
+nav .navbar-brand .red
+{
+    color: #A2346A;
+}
+nav .navbar-brand .yellow
+{
+    color: #C23B6F;
+}
+nav .navbar-brand .green
+{
+    color: #401F59;
+}
+
+.quiz-questions
+{
+    text-align: left;
+}
+
+.quiz-options
+{
+    text-align: left;
+
+}
+
+body
+{
+    background-color: #E6B2D7;;
+    font-family: decoy, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-family: decoy, serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h2 {
+    font-family: decoy, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: decoy, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-family: decoy, serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+}
