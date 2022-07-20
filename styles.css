@@ -1,74 +1,78 @@
-/* Size for brand */
-nav .navbar-brand
-{
-    font-size: xx-large;
+body {
+    background-color: black;
+    text-align: center;
+    color: #6a2300;
+    font-weight: 800;
+    font-family: georgia;
+    font-size: 15pt;
 }
-
-/* Colors for brand */
-nav .navbar-brand .blue
-{
-    color: #401F59;
-}
-nav .navbar-brand .red
-{
-    color: #A2346A;
-}
-nav .navbar-brand .yellow
-{
-    color: #C23B6F;
-}
-nav .navbar-brand .green
-{
-    color: #401F59;
-}
-
-.quiz-questions
-{
-    text-align: left;
-}
-
-.quiz-options
-{
-    text-align: left;
-
-}
-
-body
-{
-    background-color: #E6B2D7;;
-    font-family: decoy, serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
 h1 {
-    font-family: decoy, serif;
-    font-weight: 900;
-    font-style: normal;
+    font-size: 30pt;
+    color: #ec3d00;
+    font-family: georgia;
+    font-weight: 800;
+    font-style: italic;
 }
-
 h2 {
-    font-family: decoy, serif;
+    font-size: 25pt;
+    color: #df8345;
+    font-family: georgia;
     font-weight: 400;
-    font-style: normal;
 }
-
 h3 {
-    font-family: decoy, serif;
-    font-weight: 300;
-    font-style: normal;
+    font-size: 20pt;
+    color: #ec3d00;
+    font-family: georgia;
+    font-weight: 400;
 }
-
-p {
-    font-family: decoy, serif;
-    font-weight: 200;
-    font-style: normal;
+h4 {
+    font-size: 15pt;
+    color: #ec3d00;
+    font-family: georgia;
+    font-weight: 800;
 }
-
-
-button {
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    cursor:pointer;
-    overflow: hidden;
+li {
+    /* get rid of list bullets and center list items next to instead of below each other*/
+    list-style-type: none;
+    float: left;
+    padding: 65px;
+}
+.frontpage {
+    text-align: center;
+    padding-top: 18em; 
+}
+#container {
+    /* to help position home button at bottom of the screen */
+    min-height: 100%;
+}
+#wrap {
+    /* to help position home button at bottom of the screen */
+    padding-bottom: 40px;
+}
+#footer {
+    /* to help position home button at bottom of the screen */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+#dropdown-label {
+    font-size: large;
+    color: red;
+    font-family: georgia;
+    font-weight: 800;
+}
+#menu {
+    font-size: 14pt;
+    color: black;
+    background-color: #df8345;
+    font-family: georgia;
+    font-weight: 800;
+}
+#button {
+    font-size: 9pt;
+    color: black;
+    background-color: #df8345;
+    font-family: georgia;
+    font-weight: 900;
 }
